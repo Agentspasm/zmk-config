@@ -39,9 +39,9 @@
 //
                         bindings = <
 &kp  ESC      &kp  B        &kp  Y        &kp  O        &kp  U        &kp  SQT                                                                       &kp  SEMI     &kp  L        &kp  D        &kp  W        &kp  V        &kp  Z
-&kp  TAB      &kp  C        &kp  I        &kp  E        &kp  A        &kp  COMMA                                                                     &kp  DOT      &kp  H        &kp  T        &kp  S        &kp  N        &kp  Q
+&kp  TAB      &kp  C        &kp  I        &kp  E        &kp  A        &kp  COMMA                                                                     &kp  PERIOD      &kp  H        &kp  T        &kp  S        &kp  N        &kp  Q
 &kp  LCTRL    &kp  G        &kp  X        &kp  J        &kp  K        &kp  MINUS    &kp  LALT                                          &kp  RALT     &kp  SLASH    &kp  R        &kp  M        &kp  F        &kp  P        &kp  RCTRL
-// &kp  LGUI     &kp  Copy     &kp  Paste                  &kp  DEL      &kp  SPACE    &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  RSHIFT   &kp  BSPC     &kp  ENTER                  &kp  GRAVE    &kp  BKSH     &kp  EQUAL
+&kp  LGUI     &kp  Copy     &kp  Paste                  &kp  DEL      &kp  SPACE    &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  RSHIFT   &kp  BSPC     &kp  ENTER                  &kp  GRAVE    &kp  BKSH     &kp  EQUAL
                         >;
 
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -59,7 +59,7 @@
                         bindings = <
 &kp  ESC      &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  SLASH
 &kp  TAB      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  SQT
-&kp  LCTRL    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  ALT                                           &kp  ALT      &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  UP       &kp  RCTRL
+&kp  LCTRL    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  ALT                                           &kp  ALT      &kp  N        &kp  M        &kp  COMMA    &kp  PERIOD      &kp  UP       &kp  RCTRL
 &kp  LGUI     &kp  Copy     &kp  Paste                  &kp  DEL      &kp  SPACE    &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  RSHIFT   &kp  BSPC     &kp  ENTER                  &kp  LEFT     &kp  DOWN     &kp  RIGHT
                         >;
 			
