@@ -28,7 +28,7 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                default_layer {
+//                default_layer {
 
 // ENGRAM
 // -------------------------------------------------------------------------------------------------------------------------------------
@@ -37,15 +37,15 @@
 // | CTRL  |   G   |   X   |   J   |   K   |   -   |  ALT  |-------------------|  ALT  |   /   |   R   |   M   |   F   |   P   | CTRL  |
 // | GUI   | Copy  | Paste |-------| DELETE| SPACE |SK SHFT|  Nav  |---|  Sym  |SK SHFT| BKSPC | ENTER |-------|   `   |   \   |   =   |
 //
-                        bindings = <
-&kp  ESC      &kp  B        &kp  Y        &kp  O        &kp  U        &kp  SQT                                                                       &kp  SEMI     &kp  L        &kp  D        &kp  W        &kp  V        &kp  Z
-&kp  TAB      &kp  C        &kp  I        &kp  E        &kp  A        &kp  COMMA                                                                     &kp  DOT      &kp  H        &kp  T        &kp  S        &kp  N        &kp  Q
-&kp  LCTRL    &kp  G        &kp  X        &kp  J        &kp  K        &kp  MINUS    &kp  LALT                                          &kp  RALT     &kp  SLASH    &kp  R        &kp  M        &kp  F        &kp  P        &kp  RCTRL
-&kp  LGUI     &kp  Copy     &kp  Paste                  &kp  DEL      &kp  SPACE    &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  RSHIFT   &kp  BSPC     &kp  ENTER                  &kp  GRAVE    &kp  BKSH     &kp  EQUAL
-                        >;
-			
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-                };
+//                        bindings = <
+//&kp  ESC      &kp  B        &kp  Y        &kp  O        &kp  U        &kp  SQT                                                                       &kp  SEMI     &kp  L        &kp  D        &kp  W        &kp  V        &kp  Z
+//&kp  TAB      &kp  C        &kp  I        &kp  E        &kp  A        &kp  COMMA                                                                     &kp  DOT      &kp  H        &kp  T        &kp  S        &kp  N        &kp  Q
+//&kp  LCTRL    &kp  G        &kp  X        &kp  J        &kp  K        &kp  MINUS    &kp  LALT                                          &kp  RALT     &kp  SLASH    &kp  R        &kp  M        &kp  F        &kp  P        &kp  RCTRL
+//&kp  LGUI     &kp  Copy     &kp  Paste                  &kp  DEL      &kp  SPACE    &sk  LSHIFT    &mo  NAV_L            &mo  SYM_L    &kp  RSHIFT   &kp  BSPC     &kp  ENTER                  &kp  GRAVE    &kp  BKSH     &kp  EQUAL
+//                        >;
+
+//                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+//                };
 
                 qwerty_layer {
 
