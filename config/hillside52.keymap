@@ -95,7 +95,7 @@
 
             bindings = <
 &kp TILDE  &kp EXCL                &kp AT                  &kp HASH              &kp DOLLAR         &kp PERCENT                                          &kp CARET      &kp AMPS   &kp ASTRK  &kp LPAR          &kp RPAR           &none
-&trans     &kp LS(LEFT)            &kp LS(DOWN_ARROW)      &kp LS(UP_ARROW)      &kp LS(RIGHT)      &none                                                &kp BACKSLASH  &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
+&trans     &kp LS(LEFT)            &kp LS(DOWN_ARROW)      &kp LS(UP_ARROW)      &kp LS(RIGHT)      &kp LA(LEFT)                                         &kp BACKSLASH  &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
 &trans     &kp LS(LC(LEFT_ARROW))  &kp LS(LC(DOWN_ARROW))  &kp LS(LC(UP_ARROW))  &kp LS(LC(RIGHT))  &kp LA(UP_ARROW)  &trans                     &trans  &kp PIPE       &kp UNDER  &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
 &trans     &trans                  &trans                                        &trans             &trans            &trans  &mo ADJ_L  &trans  &trans  &trans         &trans                &trans            &trans             &trans
             >;
